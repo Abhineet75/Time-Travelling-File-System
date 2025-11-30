@@ -13,13 +13,13 @@ The main.cpp file contains the classes File and SystemStat.
 
 **Files structure**
 Assignment-1/
-├── main.cpp          # Entry point of the program
-├── MaxHeap.cpp       # Implementation of Max Heap
-├── TreeNode.cpp      # Implementation of TreeNode class
-├── Node.cpp          # Node implementation (for linked list/tree)
-├── LinkedList.cpp    # Implementation of Linked List
-├── build.sh          # Script to compile the project
-└── README.md         # Project instructions
+main.cpp          # Entry point of the program
+MaxHeap.cpp       # Implementation of Max Heap
+TreeNode.cpp      # Implementation of TreeNode class
+Node.cpp          # Node implementation (for linked list/tree)
+LinkedList.cpp    # Implementation of Linked List
+build.sh          # Script to compile the project
+README.md         # Project instructions
 
 There are the respective .h files for MaxHeap, Node, TreeNode and LinkedList as well. 
 
