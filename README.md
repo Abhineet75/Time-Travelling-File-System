@@ -11,18 +11,16 @@ The project is written in **C++17**.
 The project contains separate files for the definition and implementation of classes TreeNodes, Nodes and MaxHeaps.
 The main.cpp file contains the classes File and SystemStat. 
 
-**Files structure**
-Assignment-1/
-main.cpp          # Entry point of the program
-MaxHeap.cpp       # Implementation of Max Heap
-TreeNode.cpp      # Implementation of TreeNode class
-Node.cpp          # Node implementation (for linked list/tree)
-LinkedList.cpp    # Implementation of Linked List
-build.sh          # Script to compile the project
-README.md         # Project instructions
+Files structure:
 
-There are the respective .h files for MaxHeap, Node, TreeNode and LinkedList as well. 
-
+* **Assignment-1/**
+    * `main.cpp` - Entry point of the program
+    * `MaxHeap.cpp` - Implementation of Max Heap
+    * `TreeNode.cpp` - Implementation of TreeNode class
+    * `Node.cpp` - Node implementation (for linked list/tree)
+    * `LinkedList.cpp` - Implementation of Linked List
+    * `build.sh` - Script to compile the project
+    * `README.md` - Project instructions
 
 ## Operations
 
@@ -30,16 +28,21 @@ There are multiple operations that can be done with files in this program. These
 
 I have implemented the functions exactly as required in the description of the problem, so I am not including them here. I have added some additional operations that made it easier for me to test this code as I went about building it.
 
-1. $\text{VERSION} <\text{filename}> [\text{num}]$
-	- Here you can quickly look up a past version of a file, by referring to its version_id.
-2. $\text{T\_VER <filename>}$
-	- This displays the total versions that exist of that particular file
-3. $\text{C\_VER <filename>}$
-	- This displays the current version of file, the one that active_version points to. Note that this is zero indexed. The root file's version_id $= 0$
-4. $\text{FILENAMES}$
-	- This displays the names of all the files that exist in the program
-5. $\text{END}$
-	- Terminates the program 
+1. `VERSION <filename> [num]`
+   - Here you can quickly look up a past version of a file by referring to its `version_id`.
+
+2. `T_VER <filename>`
+   - This displays the total versions that exist of that particular file.
+
+3. `C_VER <filename>`
+   - This displays the current version of the file, the one that `active_version` points to. Note that this is zero-indexed. The root file's `version_id = 0`.
+
+4. `FILENAMES`
+   - This displays the names of all the files that exist in the program.
+
+5. `END`
+   - Terminates the program.
+
 
 ## Data Structures
 
